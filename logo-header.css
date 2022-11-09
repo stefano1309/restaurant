@@ -126,4 +126,8 @@ li,a{
   li.nav-item{
     margin-top: 15px;
   }
+  
+  .site-brand img{
+    margin-top: 5px;
+  }
 }
