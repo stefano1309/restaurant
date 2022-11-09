@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@400;500;700&display=swap');
+
+.welcome-container, .reservations-container, .menu-container, .contact-container{
+  display: block;
+  margin: auto;
+  max-width: 740px;
+  margin-top: 50px;
+}
+
+.welcome-text, .reservation-form, .menu-container .title{
+  padding-left: 15%;
+  font-family: Montserrat, Arial;
+  font-weight: bold;
+}
+
+
+.welcome-text, .reservation-form,.menu-container .text{
+  padding-left: 15%;
+  font-family: Montserrat, Arial;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+
+.reservation-text .title{
+  padding-left: 15%;
+  font-family: Montserrat, Arial;
+  font-weight: bold;
+}
+
+.reservation-text .text{
+  padding-left: 15%;
+  font-family: Montserrat, Arial;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+
+.contact-container .title{
+  padding-left: 15%;
+  font-family: Montserrat, Arial;
+  font-weight: bold;
+}
+
+.contact-container .text{
+  padding-left: 15%;
+  font-family: Montserrat, Arial;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+
+.reservation-form, .form-fields .btn{
+  padding-left: 15%;
+  font-family: Montserrat, Arial;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+
+.reservation-form .btn {
+  margin-top: 10px;
+}
+
+.menu-container .menu-download{
+  padding-left: 15%;
+  margin-bottom: 50px;
+}
+
+.menu-container .cta{
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  border: 2px solid rgb(0, 0, 0);
+  font-size: 1rem;
+  text-transform: .1rem;
+  transition: .3s ease;
+  transition-property: background-color, color;
+}
+.menu-container .cta:hover{
+  color: white;
+  background-color: rgb(110, 110, 110);
+}
+
+
+.parallax{
+  background: url('/Img/parallax1.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 800px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.parallax2{
+  background: url('/Img/parallax2.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 800px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.map {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+@media only screen and (max-width:749px) {
+  .parallax {
+    background-attachment: inherit;
+  }
+  .parallax2 {
+    background-attachment: inherit;
+  }
+}
+
+@media(max-width:700px) {
+
+  .welcome-text, .reservation-form, .menu-container .title{
+    padding-left: 5%;
+  }
+
+  .welcome-text, .reservation-form,.menu-container .text{
+    padding-left: 5%;
+  }
+
+  .reservation-text .title{
+    padding-left: 5%;
+  }
+  
+  .reservation-text .text{
+    padding-left: 5%;
+  }
+
+  .contact-container .title{
+    padding-left: 5%;
+  }
+  
+  .contact-container .text{
+    padding-left: 5%;
+  }
+
+  .menu-container .menu-download{
+    padding-left: 5%;
+  }
+
+}
+
+
