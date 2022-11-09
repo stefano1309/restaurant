@@ -80,7 +80,7 @@
 
 
 .parallax{
-  background: url('/Img/parallax1.jpg') no-repeat center;
+  background: url('./Img/parallax1.jpg') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   height: 800px;
@@ -89,7 +89,7 @@
 }
 
 .parallax2{
-  background: url('/Img/parallax2.jpg') no-repeat center;
+  background: url('./Img/parallax2.jpg') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   height: 800px;
