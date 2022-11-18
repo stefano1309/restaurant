@@ -3,7 +3,7 @@ const reviews = [
     id: 1,
     name: "Andrea",
     img:
-      "/Img/person-2.jpg",
+      "./Img/person-2.jpg",
     text:
       "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
   },
@@ -11,7 +11,7 @@ const reviews = [
     id: 2,
     name: "Julia",
     img:
-      "/Img/person-1.jpeg",
+      "./Img/person-1.jpeg",
     text:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
   },
@@ -19,7 +19,7 @@ const reviews = [
     id: 3,
     name: "Greg",
     img:
-    "/Img/person-3.jpg",
+    "./Img/person-3.jpg",
     text:
       "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
@@ -27,7 +27,7 @@ const reviews = [
     id: 4,
     name: "Matt",
     img:
-    "/Img/person-4.jpg",
+    "./Img/person-4.jpg",
     text:
       "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
   },
